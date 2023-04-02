@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journal Club Calculators</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Add your HTML code here -->
+<!-- Add your HTML code here -->
+<header class="bg-primary text-white text-center py-5">
+  <h1>Journal Club Calculators</h1>
+  <p>Explore statistical studies in medicine with our interactive Python projects.</p>
+</header>
+
+<section class="container mt-5">
+  <div id="carouselProjects" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col">
+            <a href="{{ url_for('project1') }}">
+                <img src="../static/images/output.png" alt="Project 1" class="img-thumbnail">
+              <h3 class="text-center">Indirect Comparison</h3>
+            </a>
+          </div>
+          <div class="col">
+            <a href="{{ url_for('project2') }}">
+              <img src="../static/images/output.png" alt="Project 2" class="img-thumbnail">
+              <h3 class="text-center">Fragility Index Calculator</h3>
+            </a>
+          </div>
+          <div class="col">
+            <a href="project3.html">
+              <img src="../static/images/output.png" alt="Project 3" class="img-thumbnail">
+              <h3 class="text-center">Reverse Fragility Index Calculator</h3>
+            </a>
+          </div>
+          <div class="col">
+            <a href="project4.html">
+              <img src="../static/images/output.png" alt="Project 4" class="img-thumbnail">
+              <h3 class="text-center">NNT Confidence Intervals</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more carousel-items for additional project rows -->
+    </div>
+    <a class="carousel-control-prev" href="#carouselProjects" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselProjects" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+   
+
+  <script>
+    // Add your JavaScript or jQuery code here
+  </script>
+</body>
+</html>
